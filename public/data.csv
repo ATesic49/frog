@@ -1,3 +1,58 @@
-Ime,Tip,Podtip,Cena
-Mai Tai,Alkohol,Koktel,720
-Sex On The Beach,Alkohol,Koktel,890
+﻿Ime,Tip,Podtip,Cena
+Espresso,Topli napici,Kafa,200
+Domaća kafa,Topli napici,Kafa,190
+Nes,Topli napici,Kafa,250
+Čaj Kamilica,Topli napici,Čaj,200
+Čaj Nana,Topli napici,Čaj,200
+Crni Čaj,Topli napici,Čaj,200
+Ice tea,Hladni napici,Sokovi,200
+Cedevita,Hladni napici,Sokovi,210
+Jabuka,Hladni napici,Sokovi,255
+Jagoda,Hladni napici,Sokovi,255
+Breskva,Hladni napici,Sokovi,255
+Pomorandža,Hladni napici,Sokovi,255
+Šumsko voće,Hladni napici,Sokovi,255
+Fuze tea,Hladni napici,Sokovi,250
+Coca Cola,Gazirani sok,Kola,250
+Coca Cola Zero,Gazirani sok,Kola,250
+Cockta,Gazirani sok,Kola,250
+Fanta,Gazirani sok,Kola,250
+Sprite,Gazirani sok,Kola,250
+Bitter,Gazirani sok,Tonic,270
+Tonic,Gazirani sok,Tonic,270
+Limunada,Hladni napici,Ceđeni Sokovi,235
+Ceđena narandža,Hladni napici,Ceđeni Sokovi,350
+Ceđeni grejp,Hladni napici,Ceđeni Sokovi,375
+Ceđeni mix,Hladni napici,Ceđeni Sokovi,410
+Rosa,Hladni napici,Voda,200
+Rosa gazirana,Hladni napici,Voda,200
+Ultra,Hladni napici,Energijska Pića,250
+Red Bull,Hladni napici,Energijska Pića,320
+Carlsberg,Alkohol,Pivo Flaširano,320
+Tuborg,Alkohol,Pivo Flaširano,320
+Točeno Lav malo,Alkohol,Pivo Točeno,270
+Točeno Lav veliko,Alkohol,Pivo Točeno,310
+Točeni Blanc malo,Alkohol,Pivo Točeno,310
+Točeni Blanc veliko,Alkohol,Pivo Točeno,360
+Ballantines,Alkohol,Žestina,320
+Jameson,Alkohol,Žestina,350
+Jack,Alkohol,Žestina,400
+Red Label,Alkohol,Žestina,320
+Smirnoff,Alkohol,Žestina,300
+Džin,Alkohol,Žestina,300
+Tekila,Alkohol,Žestina,300
+Aperol,Alkohol,Žestina,510
+Vinjak,Alkohol,Žestina,190
+Gorki List,Alkohol,Žestina,310
+Jeger,Alkohol,Žestina,310
+Viljamovka,Alkohol,Žestina,240
+Rakija Šljiva,Alkohol,Žestina,240
+Rakija Kajsija,Alkohol,Žestina,240
+Rakija Dunja,Alkohol,Žestina,240
+Medovača,Alkohol,Žestina,260
+Malina,Alkohol,Žestina,260
+Belo vino,Alkohol,Žestina,350
+Crveno vino,Alkohol,Žestina,350
+Roze,Alkohol,Žestina,350
+Prosecco,Alkohol,Žestina,410
+Somersby,Alkohol,Pivo Flaširano,360

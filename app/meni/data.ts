@@ -10,8 +10,16 @@ export async function getData() {
 	return new Promise((resolve, reject) => {
 		const records: any[] = [];
 
-		fs.createReadStream(filePath)
-			.pipe(parse({ columns: true, trim: true }))
+		fs.createReadStream(filePath, { encoding: "utf-8" })
+			.pipe(
+				parse({
+					columns: true,
+					trim: true,
+					skip_empty_lines: true,
+					bom: true,
+					quote: '"',
+				})
+			)
 			.on("data", (row) => {
 				records.push(row);
 			})

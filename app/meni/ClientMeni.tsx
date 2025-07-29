@@ -10,45 +10,24 @@ const ClientMeni = ({ data }: { data: meni[] }) => {
 	const filtriraniData = filtrirajPoKlasi(data, tipState);
 	const podklase = Array.from(arejPodtipova(filtriraniData));
 	return (
-		<div className="flex flex-col py-16 items-center  w-full gap-8 bg-green-100 min-h-screen">
-			<h1 className="text-2xl text-green-800 md:text-6xl font-bold font-serif tracking-wider">
-				Frog
+		<div className="flex flex-col  py-8 md:py-16 items-center  w-full gap-8 bg-green-100 min-h-screen">
+			<h1 className="text-4xl text-green-800 md:text-6xl font-bold font-serif tracking-wider">
+				Frog - Meni
 			</h1>
-			<div className="grid grid-cols-5 md:text-base text-xs">
+			<div className="grid grid-cols-4 md:text-base text- text-[12px]">
 				{tipovi.map((tip) => (
 					<div
-						className="flex justify-center text-center items-center  border-r  cursor-pointer border-r-green-200  px-2 md:px-4"
+						className="flex justify-center text-center items-center  border-r  cursor-pointer border-r-green-200  px-1 md:px-4"
 						key={tip}
 						onClick={() => setTipState(tip)}
 					>
 						<p
-							className={`text-gray-900  ${tip === tipState && "underline"} underline-offset-8 font-semibold  py-2 md:text-xl`}
+							className={`text-gray-800  ${tip === tipState && "underline"} underline-offset-8 font-medium  py-2 md:text-xl`}
 						>
 							{tip}
 						</p>
 					</div>
 				))}
-
-				<div className="flex justify-center text-center items-center  border-r border-r-green-200 px-2 md:px-4">
-					<p className="text-gray-900 font-semibold  py-2 md:text-xl">
-						Kokteli
-					</p>
-				</div>
-				<div className="flex justify-center text-center items-center  border-r border-r-green-200  px-2 md:px-4">
-					<p className="text-gray-900 font-semibold  py-2 md:text-xl">
-						Kokteli
-					</p>
-				</div>
-				<div className="flex justify-center text-center items-center  border-r border-r-green-200  px-2 md:px-4">
-					<p className="text-gray-900 font-semibold  py-2 md:text-xl">
-						Kokteli
-					</p>
-				</div>
-				<div className="flex justify-center text-center items-center  border-r border-r-green-200  px-2 md:px-4">
-					<p className="text-gray-900 font-semibold  py-2 md:text-xl">
-						Kokteli
-					</p>
-				</div>
 			</div>
 			<div className="rounded-lg flex-col flex max-w-[calc(100%_-_32px)] px-4 md:px-8 gap-16 p-4 bg-green-50 w-full lg:max-w-screen-lg ">
 				{podklase.map((podklasa) => (

@@ -12,7 +12,7 @@ export type meni = {
 };
 const page = async () => {
 	const data = (await getData()) as meni[];
-
+	console.log(data);
 	return <ClientMeni data={data} />;
 };
 
