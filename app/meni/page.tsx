@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import React from "react";
 import logo from "@/public/logo.png";
 import Image from "next/image";
@@ -10,6 +12,7 @@ export type meni = {
 	Podtip: string;
 	Cena: string;
 };
+
 const page = async () => {
 	const data = (await getData()) as meni[];
 	console.log(data);
